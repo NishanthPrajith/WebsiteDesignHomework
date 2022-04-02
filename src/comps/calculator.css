@@ -1,0 +1,62 @@
+.homeworkTitle {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+    font-size: 1.5em;
+}
+  
+.mainContent {
+    width: 100%;
+    height: 95vh;
+    background-color: var(--white);
+}
+  
+.inputText {
+    width: 90%;
+    font-size: 4.3em;
+    display: grid;
+    justify-content: end;
+    color: var(--black);
+    padding: 5%;
+}
+  
+.buttons {
+    width: 90%;
+    height: 60%;
+    padding: 2% 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 2%;
+    column-gap: 1%;
+}
+  
+.buttons button {
+    outline: none;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 25px;
+}
+  
+.AC, .minusPlus, .percent {
+    background-color: var(--lightGrey);
+    color: var(--black);
+}
+  
+.nine, .eight, .seven, .six, .five, .four, .three, .two,
+.one, .zero, .dot {
+    background-color: var(--darkGrey);
+    color: var(--white);
+}
+  
+.zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+  
+.division, .multi, .minus, .add, .equals {
+    background-color: var(--orange);
+    color: var(--white);
+}
+  
