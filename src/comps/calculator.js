@@ -119,7 +119,7 @@ export default function Calculator() {
     return (
         <div className="mainContent">
             <p className="homeworkTitle">
-                Billy Davilla, Mark Natvio, Sanjida Nisha & Nishanth Prajith
+                Mark Natvio, Sanjida Nisha & Nishanth Prajith
             </p>
             <p style={{width: "100%", textAlign: "center", marginTop: "2%"}}>
                 Website Design Homework in React.js
